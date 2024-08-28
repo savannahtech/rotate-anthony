@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@rotate/web/*": ["apps/web/src/*"],
+      "@rotate/ui": ["packages/ui/src"]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "include": ["packages", "apps"]
+}
